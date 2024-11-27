@@ -1,16 +1,10 @@
-import Image from "next/image";
-
 function Home() {
   return (
-    <div>
-      <h1>Hora da soneca!</h1>
-      <Image
-        src="/img/panda-dormindo-na-estrutura-da-madeira-700-106270069.jpg"
-        alt="Panda dormindo"
-        width={300}
-        height={300}
-      />
-      <p>Que tal tirar uma sonequinha?</p>
+    <div style={{ textAlign: "center", padding: "50px" }}>
+      <h1>FaceBet</h1>
+      <h2>Estamos trabalhando duro para lançar algo incrível!</h2>
+      <p>Que tal apostar com seus amigos? Em breve você poderá!</p>
+      <p>Fique ligado para mais atualizações.</p>
     </div>
   );
 }
